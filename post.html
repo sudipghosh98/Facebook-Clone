@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function displayDate() {
+var y=document.getElementById("1").value;
+    document.getElementById("demo").innerHTML = y;
+}
+
+
+</script>
+<script>
+function bigImg(){
+
+document.getElementById("i1").style.height="60px";
+document.getElementById("i1").style.width="60px";}
+function normalImg(){
+document.getElementById("i1").style.height="50px";
+document.getElementById("i1").style.width="30%";
+}
+function bigImg1(){
+
+document.getElementById("i2").style.height="60px";
+document.getElementById("i2").style.width="60px";}
+function normalImg1(){
+document.getElementById("i2").style.height="50px";
+document.getElementById("i2").style.width="30%";
+}
+function bigImg2(){
+
+document.getElementById("i3").style.height="60px";
+document.getElementById("i3").style.width="60px";}
+function normalImg2(){
+document.getElementById("i3").style.height="50px";
+document.getElementById("i3").style.width="30%";
+}
+</script>
+<style type="text/css">
+ul{
+margin:2px;
+padding:2px;
+}
+a:link,a:visited{
+display:block;
+color:white;
+background-color:#0020C2;
+width:200px;
+text-align:center;
+padding:4px;}
+a:hover,a:active{
+background-color:#0000A0;
+}
+li{
+float:left;
+}
+
+
+body{
+background-image: url('111.jpg');
+background-size:400% 200%;
+}
+</style>
+</head>
+<script>
+window.alert("your post has been sucessfully completed");
+</script>
+
+
+
+
+
+<div style="height:70px;width:1300px;background-color:#0020C2;">
+<div style="height:50px;width:200px;float:left;">
+<img src="103.jpeg"id="i1" onmouseover="bigImg()"
+onmouseout="normalImg()" alt="Smiley"
+ width="30%" height=50px>
+<img src="100.jpg" id="i2" onmouseover="bigImg1()"
+onmouseout="normalImg1()" alt="Smiley" width="30%" height=50px>
+<img src="101.png" id="i3" onmouseover="bigImg2()"
+onmouseout="normalImg2()" alt="Smiley" width="30%" height=50px>
+</div>
+<div style="height:50px;width:500px;float:left">
+<form>
+<input type="text" name="search" placeholder="seach any friend you want"  size="40" maxlength="20"><br>
+</form>
+<form method="get" >
+<button type="submit" style="color:white;background-color:blue;">Search</button>
+</form>
+</div>
+
+</div>
+<div style="margin-top:40px;
+float: left;border:2px solid black;
+width:260px;">
+<center><img src="2.jpg" width="50%" height=100px><br>
+<h1> Sandip </h1><br>
+<hr>
+<h2> setting </h2>
+<a href="account1.html" target="blank"> account</a><br>
+<a href="privacy.html" target="blank"> privacy</a><br>
+<a href="general.html" target="blank"> general</a><br>
+</center>
+</div>
+<br>
+<br>
+<div style="margin-left:0px;
+border-left: 2px solid black;width:650px;
+padding:10px;float:left;height:870px">
+<ul>
+<li><a href="status.html" target="new">Write Status</a></li>
+<li><a href="add photo.html">Add photo/video</a></li>
+<li><a href="https://www.maps.google.com" target="new">Check In</a></li>
+</ul>
+<br>
+<br>
+<textarea rows="10" cols="85" placeholder="Write somethings whats is in your mind">
+</textarea>
+<br>
+<br>
+<form>
+<input type="submit"  value="Post" style="color:white;background-color:blue;"> <br>
+</form>
+<br>
+<br>
+<div style="margin-left: 20px;
+border:1px solid black;
+padding:10px;float:left;height:550px;width:600px;border:2px solid black;">
+<p> <b><i>Sandip Ghosh</b></i> newly added a photo <p>
+
+<img src="9.jpg" width="100%" height=300px>
+<br>
+<br>
+<form>
+<input type="submit"  value="LIKE">&nbsp&nbsp&nbsp 
+<input type="submit"  value="SHARE"> &nbsp&nbsp&nbsp 
+<br>
+<p id="demo">    </p>
+<br>
+<input type="text" name="search" placeholder="COMMENT" id="1" size="40" maxlength="20"><br>
+</form>
+<button type="button" onclick="displayDate()"> Comment </button>
+</div>
+</div>
+<div style="float:left;margin-left=50px;height:480px;width:350px;border:2px solid black;">
+<br>
+<br>
+<center>
+<form method="get" action="pop.html">
+
+<button type="submit" style="color:white;background-color:blue;">LOG OUT</button>
+
+</form> 
+
+<br>
+<h1>
+Notification
+</h1></center>
+<pre>
+<h3><big>
+Sudip Ghosh likes your Photo
+<hr>
+Shuvam Ghosh tagged you on a Post<hr>
+Md. Iftekhar likes your Photo<hr>
+Abhishek Dadhich likes your photo<hr>
+Md. Iftekhar likes your Photo
+<big></h3>
+</pre>
+</div>
+
+<div style="margin-left:20px;
+border:1px solid black;height:270px;
+padding:10px;float:left;width:300px;border:2px solid black;margin-top:10px;">
+<center><h1>
+Chat
+</h1>
+<form>
+<pre>
+Sudip Ghosh     <input type="radio" value="1" checked>
+<br>
+ Shuvam Ghosh     <input type="radio" value="1"checked>
+<br>
+ Iftekhar Alam     <input type="radio" value="1"checked>
+<br>
+
+
+
+</pre>
+</form>
+
+</div>
+
+
+</body>
+</html>
